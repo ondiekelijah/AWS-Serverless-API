@@ -20,6 +20,8 @@ sample body request.
  "amount": "540"
 }
 ```
+Status code: `201`
+
 
 **[Get all expenses](https://553y9ozxl7.execute-api.us-west-2.amazonaws.com/expenses): Method: `GET`**
 
@@ -39,6 +41,8 @@ sample response.
     }
 ]
 ```
+Status code: `200`
+
 
 **[Get an expense](https://553y9ozxl7.execute-api.us-west-2.amazonaws.com/expenses/eda2769d-3d97-4082-bc9f-97c52b9a9274): Method: `GET`**
 
@@ -55,5 +59,28 @@ sample response.
 }
 
 ```
+Status code: `200`
 
+
+**[Update an expense](https://553y9ozxl7.execute-api.us-west-2.amazonaws.com/expenses): Method: `PUT`**
+
+
+**Body format**: JSON
+
+sample body request.
+
+```Json
+{
+ "description": "Update on Car servicing",
+ "amount": "5300"
+}
+```
+Status code: `200`
+
+
+**[Delete an expense](https://553y9ozxl7.execute-api.us-west-2.amazonaws.com/expenses/eda2769d-3d97-4082-bc9f-97c52b9a9274): Method: `DELETE`**
+
+Endpoint : https://553y9ozxl7.execute-api.us-west-2.amazonaws.com/expenses/{expenseID}
+
+Status code: `204`
 
