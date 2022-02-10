@@ -39,3 +39,21 @@ sample response.
     }
 ]
 ```
+
+**[Get an expense](https://553y9ozxl7.execute-api.us-west-2.amazonaws.com/expenses/eda2769d-3d97-4082-bc9f-97c52b9a9274): Method: `GET`**
+
+Endpoint : https://553y9ozxl7.execute-api.us-west-2.amazonaws.com/expenses/{expenseID}
+
+sample response.
+
+```Json
+
+{
+    "amount": "540",
+    "description": "Car servicing",
+    "id": "eedb412d-ad57-4a62-b4b1-3ff734a7ba76"
+}
+
+```
+
+
